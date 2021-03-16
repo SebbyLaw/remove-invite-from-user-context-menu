@@ -4,7 +4,7 @@ const { inject, uninject } = require('powercord/injector');
 const { findInReactTree } = require('powercord/util');
 
 
-module.exports = class SuperDeveloperMode extends Plugin {
+module.exports = class RemoveInviteFromUserContextMenu extends Plugin {
     async startPlugin () {
 
         const dmUserContextMenu = await getModule(m => m.default?.displayName === "DMUserContextMenu");
