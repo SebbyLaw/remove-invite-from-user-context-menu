@@ -1,6 +1,6 @@
 {
   "name": "Remove Invite From User Context Menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes the invite from user context menus",
   "author": "SebbyLaw",
   "license": "MIT"
